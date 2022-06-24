@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Expense from './component/Expenseitem';
+
+
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>First edit in react</p>
+        <Expense></Expense>
         <a
           className="App-link"
           href="https://reactjs.org"
